@@ -1,0 +1,106 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.instagram-wrapper{
+    width: 1200px;
+    display: flex;
+}
+
+.instagram-wrapper .instagram-phone img{
+    max-width: 100%;
+}
+
+.instagram-wrapper .instagram-phone{
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.instagram-continue .group{
+    width: calc(600px - 30px);
+    max-height: calc(636px - 30px);
+    border: 1px solid rgb(216, 212, 212);
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    
+}
+
+.instagram-continue .group .instagram-logo{
+    margin-top: 10px;
+}
+
+.instagram-continue .group .perfil{
+    border-radius: 50%;
+    margin: 3px;
+}
+
+.instagram-continue .group .instagram-login{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgb(61, 134, 230);
+    color: white;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+.instagram-continue .group .instagram-logout{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px 0px;
+    color: rgb(61, 134, 230);
+}
+
+.instagram-continue .group .not-account{
+    color: rgb(159, 161, 163);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.instagram-continue .group .notaccount{
+    color: rgb(61, 134, 230);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.instagram-continue .group .notaccount i{
+    font-style: normal;
+    color: rgb(159, 161, 163);
+}
+
+.instagram-continue .get-app p{
+    text-align: center;
+    color: rgb(49, 49, 49);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.instagram-continue .get-app .play img{
+   width: 200px;
+   margin: 0 6px;
+   cursor: pointer;
+}
+
+.instagram-continue .get-app .play{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
